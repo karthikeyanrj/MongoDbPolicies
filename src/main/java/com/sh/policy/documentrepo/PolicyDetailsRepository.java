@@ -14,5 +14,4 @@ import com.sh.policy.model.PremiaPolicies;
 @Repository
 public interface PolicyDetailsRepository extends MongoRepository<PolicyDetails,String>{
 	
-	List<PolicyDetails> findByPolicyNo(String policyNo);
 	}
